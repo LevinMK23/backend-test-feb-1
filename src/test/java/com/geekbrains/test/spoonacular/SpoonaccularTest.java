@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import com.geekbrains.test.AbstractTest;
 import io.restassured.RestAssured;
+import net.javacrumbs.jsonunit.JsonAssert;
 import org.hamcrest.Matchers;
 import org.json.JSONException;
 import org.junit.jupiter.api.BeforeAll;
@@ -12,6 +13,7 @@ import org.skyscreamer.jsonassert.JSONAssert;
 import org.skyscreamer.jsonassert.JSONCompareMode;
 
 import static io.restassured.RestAssured.given;
+import static net.javacrumbs.jsonunit.core.Option.IGNORING_ARRAY_ORDER;
 import static org.hamcrest.Matchers.is;
 
 public class SpoonaccularTest extends AbstractTest {
@@ -46,10 +48,10 @@ public class SpoonaccularTest extends AbstractTest {
 
         String expected = getResourceAsString("expected.json");
 
-        JSONAssert.assertEquals(
+        JsonAssert.assertJsonEquals(
                 expected,
                 actual,
-                JSONCompareMode.NON_EXTENSIBLE
+                JsonAssert.when(IGNORING_ARRAY_ORDER)
         );
 
     }

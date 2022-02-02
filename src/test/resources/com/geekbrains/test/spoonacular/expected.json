@@ -3,7 +3,7 @@
     {
       "id": 654959,
       "title": "Pasta With Tuna",
-      "image": "https://spoonacular.com/recipeImages/654959-312x231.jpg",
+      "image": "${json-unit.ignore}",
       "imageType": "jpg"
     },
     {
@@ -13,7 +13,7 @@
       "image": "https://spoonacular.com/recipeImages/654812-312x231.jpg"
     },
     {
-      "title": "Pasta Margherita",
+      "title": "${json-unit.ignore}",
       "id": 511728,
       "image": "https://spoonacular.com/recipeImages/511728-312x231.jpg",
       "imageType": "jpg"
