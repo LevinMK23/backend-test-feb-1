@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "id": 654959,
+      "title": "Pasta With Tuna",
+      "image": "https://spoonacular.com/recipeImages/654959-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 654812,
+      "title": "Pasta and Seafood",
+      "imageType": "jpg",
+      "image": "https://spoonacular.com/recipeImages/654812-312x231.jpg"
+    },
+    {
+      "title": "Pasta Margherita",
+      "id": 511728,
+      "image": "https://spoonacular.com/recipeImages/511728-312x231.jpg",
+      "imageType": "jpg"
+    }
+  ],
+  "offset": 0,
+  "number": 3,
+  "totalResults": 224
+}
