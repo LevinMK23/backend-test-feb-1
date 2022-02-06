@@ -1,5 +1,6 @@
 package com.geekbrains.test;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -9,6 +10,10 @@ public class AbstractTest {
         InputStream inputStream = getClass().getResourceAsStream(resource);
         byte[] bytes = inputStream.readAllBytes();
         return new String(bytes);
+    }
+
+    protected File getFile(String resource) throws IOException {
+        return new File(getClass().getResource(resource).getFile());
     }
 
 }

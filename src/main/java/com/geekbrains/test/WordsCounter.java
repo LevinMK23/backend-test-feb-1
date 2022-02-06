@@ -20,6 +20,12 @@ public class WordsCounter {
                         v -> 1,
                         Integer::sum
                 ));
+
+        ImageClassifierResponse build = ImageClassifierResponse.builder()
+                .category("asf")
+                .status("asfasf")
+                .probability(0.1f)
+                .build();
     }
 
     // должен возвращать количество слов
