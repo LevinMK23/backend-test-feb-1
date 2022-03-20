@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4203913-c8db-4a46-b433-4d85ef8ef010" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/test/spoonacular/SpoonaccularTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/test/spoonacular/SpoonaccularTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <recent name="com.geekbrains.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpoonaccularTest">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="SerializeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.test.SerializeExample" />
       <module name="backend-test" />
@@ -85,6 +83,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geekbrains.test" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.test.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpoonaccularTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test" />
       <extension name="coverage">
@@ -96,22 +109,6 @@
       <option name="PACKAGE_NAME" value="com.geekbrains.test.spoonacular" />
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.test.spoonacular.SpoonaccularTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpoonaccularTest.testGetRecipesComplexSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.test.spoonacular.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.test.spoonacular" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.test.spoonacular.SpoonaccularTest" />
-      <option name="METHOD_NAME" value="testGetRecipesComplexSearch" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.SpoonaccularTest" />
         <item itemvalue="JUnit.WordsCounterTest" />
         <item itemvalue="Application.SerializeExample" />
         <item itemvalue="JUnit.SpoonaccularTest.testImageClassification" />
-        <item itemvalue="JUnit.SpoonaccularTest.testGetRecipesComplexSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +167,7 @@
       <updated>1643822312425</updated>
       <workItem from="1643822314077" duration="9284000" />
       <workItem from="1644081040654" duration="5648000" />
-      <workItem from="1647797179903" duration="849000" />
+      <workItem from="1647797179903" duration="1395000" />
     </task>
     <task id="LOCAL-00001" summary="JsonUnit assertions">
       <created>1643831466336</created>
@@ -186,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644159002115</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lesson 7. Jenkins">
+      <created>1647798162316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647798162316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +211,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JsonUnit assertions" />
     <MESSAGE value="Lesson 4. Rest Assured" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 4. Rest Assured" />
+    <MESSAGE value="Lesson 7. Jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 7. Jenkins" />
   </component>
 </project>
