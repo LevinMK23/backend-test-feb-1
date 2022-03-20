@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4203913-c8db-4a46-b433-4d85ef8ef010" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/test/ImageClassifierResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/test/SerializeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/geekbrains/test/spoonacular/images/burger/burger.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/geekbrains/test/spoonacular/images/pasta/pasta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/geekbrains/test/spoonacular/images/pizza/pizza.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/test/WordsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/test/WordsCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/test/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/test/AbstractTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/test/spoonacular/SpoonaccularTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/test/spoonacular/SpoonaccularTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +43,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -67,7 +60,7 @@
       <recent name="com.geekbrains.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerializeExample">
+  <component name="RunManager" selected="JUnit.SpoonaccularTest">
     <configuration name="SerializeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.test.SerializeExample" />
       <module name="backend-test" />
@@ -81,15 +74,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SerializeExample" />
         <item itemvalue="JUnit.SpoonaccularTest" />
+        <item itemvalue="JUnit.WordsCounterTest" />
+        <item itemvalue="Application.SerializeExample" />
         <item itemvalue="JUnit.SpoonaccularTest.testImageClassification" />
         <item itemvalue="JUnit.SpoonaccularTest.testGetRecipesComplexSearch" />
-        <item itemvalue="JUnit.WordsCounterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +169,8 @@
       <option name="presentableId" value="Default" />
       <updated>1643822312425</updated>
       <workItem from="1643822314077" duration="9284000" />
-      <workItem from="1644081040654" duration="5619000" />
+      <workItem from="1644081040654" duration="5648000" />
+      <workItem from="1647797179903" duration="849000" />
     </task>
     <task id="LOCAL-00001" summary="JsonUnit assertions">
       <created>1643831466336</created>
@@ -187,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643831466336</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson 4. Rest Assured">
+      <created>1644159002115</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644159002115</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +206,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JsonUnit assertions" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsonUnit assertions" />
+    <MESSAGE value="Lesson 4. Rest Assured" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 4. Rest Assured" />
   </component>
 </project>

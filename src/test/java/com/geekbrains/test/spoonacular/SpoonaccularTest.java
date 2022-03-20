@@ -18,6 +18,7 @@ import org.hamcrest.Matchers;
 import org.json.JSONException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -58,6 +59,7 @@ public class SpoonaccularTest extends AbstractTest {
     }
 
     @Test
+    @Disabled
     void testGetRecipesComplexSearch() throws IOException, JSONException {
 
         String actual = given()
@@ -85,6 +87,7 @@ public class SpoonaccularTest extends AbstractTest {
 
     }
 
+    @Disabled
     @ParameterizedTest
     @MethodSource("testImageClassificationData")
     void testImageClassification(String dir, String resource) throws IOException {
