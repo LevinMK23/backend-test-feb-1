@@ -39,8 +39,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/com/geekbrains/test/spoonacular/images/pizza" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -167,7 +170,7 @@
       <updated>1643822312425</updated>
       <workItem from="1643822314077" duration="9284000" />
       <workItem from="1644081040654" duration="5648000" />
-      <workItem from="1647797179903" duration="1395000" />
+      <workItem from="1647797179903" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="JsonUnit assertions">
       <created>1643831466336</created>
@@ -190,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647798162316</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson 7. Jenkins">
+      <created>1647798948720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647798948720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
